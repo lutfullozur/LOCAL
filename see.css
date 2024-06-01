@@ -1,0 +1,43 @@
+
+.box{
+    width: 630px;
+    height: 800px;
+    margin: auto;
+}
+.span{
+    margin-top: 30px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.buttons{
+    margin-top: 30px;
+}
+.btnCancel{
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(10, 235, 235);
+    width: 100px;
+    border: none;
+    margin-right: 10px;
+}
+.btnSaVe{
+    margin-right: 10px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: blue;
+    border: none;
+    width: 100px;
+}
+.btn{
+    width: 150px;
+    border: none;
+    margin-left:3px;
+}
+.p{
+    margin-top: -10px;
+    color: gray;
+}

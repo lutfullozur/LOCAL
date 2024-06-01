@@ -1,0 +1,109 @@
+*{
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    margin-top:40px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+.right{
+    margin-left: 100px;
+    margin-top: 25px;
+}
+.main{
+    width: 200px;
+    border: none;
+    padding: 5px;
+    font-size: 25px;
+    margin-top: 10px;
+    background-color: white;
+    
+}
+.main:hover{
+    background-color: lightblue;
+    color: blue;
+}
+a{
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}
+
+a:hover{
+    color: blue;    
+}
+
+.header{
+    display: flex;
+}
+.btnAdd{
+    margin-left: 700px;
+    color: white;
+    background-color: blue;
+    border: none;
+    height: 30px;
+    margin-top: 25px;
+    width: 120px;
+    padding: 5px;
+}
+.search{
+    width: 280px;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+table {
+    border-color: rgb(73, 107, 21);
+    border-collapse: collapse;
+    border: 1px solid #ff0000;
+    width: 90%;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  td {
+    border: 1px solid #000000;
+    border: none;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 15px;
+  }
+
+  th {
+    background-color:blue;
+    color: white;
+    border: 1px solid #000000;
+    border: none;
+    padding: 15px;
+
+  }
+  tr{
+    text-align: center;
+    margin-top: 10px;
+    border: 1px solid rgb(214, 214, 214);
+
+}
+.o{
+    color: white;
+}
+.o:hover{
+    color: white;
+}
+
+
+.p{
+    color: white;
+}
+.p:hover{
+    color: white;
+}
+.btnphone{
+    padding: 5px;
+    border: none;
+    width: 130px;
+    border-radius: 10px;
+}

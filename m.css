@@ -1,0 +1,107 @@
+*{
+    font-family: sans-serif;
+}
+.right{
+    margin-left: 100px;
+    margin-top: 25px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    margin-top:40px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.container{
+    display: flex;
+}
+.containerItem{
+    display: flex;
+    flex-wrap: wrap;
+}
+.item{
+    border: 1px solid black;
+    width:500px;
+    height: 150px;
+    gap: 20px;
+    margin-left: 20px;
+    margin-top: 40px;
+    border: none;
+    box-shadow: 1px 1px 10px gray ;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.btnStata{
+    margin-top: 27px;
+    padding: 5px;
+    background-color: lightblue;
+    color: white;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.leftHeader{
+    margin-left: 10px;
+}
+.btnMore{
+    padding: 5px;
+    background-color: lightcyan;
+    width: 100px;
+    border: none;
+    color: black;
+    font-weight: bold;
+}
+.city{
+    margin-top: 50px;
+}
+.nameCurse{
+    font-size: 25px;
+    font-weight: bold;
+}
+.level{
+    color: gray;
+    margin-top: -15px;
+    margin-left: 5px;
+}
+
+#select1{
+    padding: 10px;
+    width: 250px;
+    margin-left: 25px;
+}
+#select2{
+    padding: 10px;
+    width: 250px;
+    margin-left: 25px;
+}
+.main{
+    width: 200px;
+    border: none;
+    padding: 5px;
+    font-size: 25px;
+    margin-top: 10px;
+    background-color: white;
+    
+}
+.main:hover{
+    background-color: lightblue;
+    color: blue;
+}
+a{
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}
+
+a:hover{
+    color: blue;    
+}
+@media (max-width: 768px) {
+   .item{
+    background-color: black;
+   }
+}
